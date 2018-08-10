@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<interface>
+    <url name="register">
+        <group>User</group>
+        <module>Member</module>
+        <action>registerCommon</action>
+    </url>
+
+    <url name="login">
+        <group>App</group>
+        <module>User</module>
+        <action>Login</action>
+    </url>
+
+     <url name="profile">
+        <group>App</group>
+        <module>User</module>
+        <action>Profile</action>
+    </url>
+
+    <url name="registerQuick">
+        <group>User</group>
+        <module>Member</module>
+        <action>registerQuick</action>
+    </url>
+
+    <url name="generate">
+        <group>User</group>
+        <module>Token</module>
+        <action>generate</action>
+    </url>
+
+    <url name="loginFb">
+        <group>User</group>
+        <module>Member</module>
+        <action>loginFb</action>
+    </url>
+
+</interface>
